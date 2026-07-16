@@ -48,9 +48,9 @@ panelStroke.Parent = panel
 local titleLabel = Instance.new("TextLabel")
 titleLabel.Size = UDim2.new(1, 0, 0, 50)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text = "OYB Hub"
+titleLabel.Text = "TRANSFER KEY"
 titleLabel.TextColor3 = COLOR_TEXT_BLUE
-titleLabel.TextSize = 20
+titleLabel.TextSize = 30
 titleLabel.Font = Enum.Font.GothamBold
 titleLabel.Parent = panel
 
@@ -60,7 +60,7 @@ closeButton.Position = UDim2.new(1, -45, 0, 10)
 closeButton.BackgroundTransparency = 1
 closeButton.Text = "X"
 closeButton.TextColor3 = COLOR_RED_X
-closeButton.TextSize = 19
+closeButton.TextSize = 25
 closeButton.Font = Enum.Font.GothamBold
 closeButton.Parent = panel
 
@@ -70,7 +70,7 @@ subLabel.Position = UDim2.new(0, 0, 0, 50)
 subLabel.BackgroundTransparency = 1
 subLabel.Text = "by Damizz Moon"
 subLabel.TextColor3 = COLOR_TEXT_BLUE
-subLabel.TextSize = 15
+subLabel.TextSize = 14
 subLabel.Font = Enum.Font.GothamBold
 subLabel.Parent = panel
 
